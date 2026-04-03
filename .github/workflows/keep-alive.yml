@@ -11,4 +11,4 @@ jobs:
     steps:
       - name: Ping Space URL
         run: |
-          curl -s -o /dev/null -w "%{http_code} - Ping successful at $(date)\n" https://huggingface.co/spaces/fangzny/myupdate_gw_app || echo "Ping attempt failed at $(date)"
+          curl -s -o /dev/null -w "%{http_code} - Ping successful at $(date)\n" https://fangzny-myupdate-gw-app.hf.space/ || echo "Ping attempt failed at $(date)"
